@@ -22,6 +22,48 @@ LANGUAGE ~English~
 BEGIN ~Sirene NPC for BG2:EE~
 INCLUDE ~%MOD_FOLDER%/lib/Sirene_BG2.tpa~
 
+// Alternate portraits
+
+BEGIN ~BG1 Default portrait by sporeboy~
+DESIGNATED 101
+FORCED_SUBCOMPONENT ~Choose an portrait for Sirene (check mod folder for portraits)~
+REQUIRE_COMPONENT ~Sirene_BG2.tp2~ ~0~ ~This component requires Sirene to be installed~
+  COPY ~%MOD_FOLDER%/portraits/Sirene2L.bmp~ ~override/SireneL.bmp~
+  COPY ~%MOD_FOLDER%/portraits/Sirene2M.bmp~ ~override/SireneM.bmp~
+  COPY ~%MOD_FOLDER%/portraits/Sirene2S.bmp~ ~override/SireneS.bmp~
+
+BEGIN ~BG2 Default portrait by Isandiry~
+DESIGNATED 102
+SUBCOMPONENT ~Choose an portrait for Sirene (check mod folder for portraits)~
+REQUIRE_COMPONENT ~Sirene_BG2.tp2~ ~0~ ~This component requires Sirene to be installed~
+  COPY ~%MOD_FOLDER%/portraits/SireneL.bmp~ ~override/SireneL.bmp~
+  COPY ~%MOD_FOLDER%/portraits/SireneM.bmp~ ~override/SireneM.bmp~
+  COPY ~%MOD_FOLDER%/portraits/SireneS.bmp~ ~override/SireneS.bmp~
+
+BEGIN ~Alternate Light Armor portrait by Sirick~
+DESIGNATED 103
+SUBCOMPONENT ~Choose an portrait for Sirene (check mod folder for portraits)~
+REQUIRE_COMPONENT ~Sirene_BG2.tp2~ ~0~ ~This component requires Sirene to be installed~
+  COPY ~%MOD_FOLDER%/portraits/Sirene3L.bmp~ ~override/SireneL.bmp~
+  COPY ~%MOD_FOLDER%/portraits/Sirene3M.bmp~ ~override/SireneM.bmp~
+  COPY ~%MOD_FOLDER%/portraits/Sirene3S.bmp~ ~override/SireneS.bmp~
+
+BEGIN ~Alternate Heavy Armor portrait by Sirick/LavaDelVortel~
+DESIGNATED 104
+SUBCOMPONENT ~Choose an portrait for Sirene (check mod folder for portraits)~
+REQUIRE_COMPONENT ~Sirene_BG2.tp2~ ~0~ ~This component requires Sirene to be installed~
+  COPY ~%MOD_FOLDER%/portraits/Sirene4L.bmp~ ~override/SireneL.bmp~
+  COPY ~%MOD_FOLDER%/portraits/Sirene4M.bmp~ ~override/SireneM.bmp~
+  COPY ~%MOD_FOLDER%/portraits/Sirene4S.bmp~ ~override/SireneS.bmp~
+
+BEGIN ~Alternate Portrait by Kyllian Guillart (https://www.deviantart.com/lodaligae)~
+DESIGNATED 105
+SUBCOMPONENT ~Choose an portrait for Sirene (check mod folder for portraits)~
+REQUIRE_COMPONENT ~Sirene_BG2.tp2~ ~0~ ~This component requires Sirene to be installed~
+COPY ~%MOD_FOLDER%/portraits/Sirene5.bmp~ ~override/SireneL.bmp~
+COPY ~%MOD_FOLDER%/portraits/Sirene5.bmp~ ~override/SireneM.bmp~
+COPY ~%MOD_FOLDER%/portraits/Sirene5.bmp~ ~override/SireneS.bmp~
+
 // Alternate Classes
 
 BEGIN ~True Paladin~
